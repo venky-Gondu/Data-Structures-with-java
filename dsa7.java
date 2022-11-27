@@ -6,7 +6,7 @@ int data;
 
 }public class dsa7{
     // inserting node at begining of the double linkedlist
-    Node head;
+    Node head=null;
     public void addelemnt(int val){
         Node newnode=new Node();// creating new node
         newnode.data=val;// inserting nodedata value 
@@ -35,6 +35,8 @@ head=newnode;
         ad.addelemnt(7);
         ad.display();
         ad.addelemnt(50);
+        ad.display();
+        ad.addelemnt(89);
         ad.display();
         //System.out.println();
         
